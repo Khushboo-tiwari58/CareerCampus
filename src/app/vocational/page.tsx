@@ -42,7 +42,7 @@ export default function VocationalTraining() {
         
       </div>
       <p className="text-lg md:text-xl text-gray-700 mt-20">Are you passionate about teaching or sharing your knowledge?</p>
-        <p className="text-lg md:text-xl text-gray-600 mt-10">Share your knowledge with thousands of learners by publishing your courses on our platform. Whether you're an educator, industry expert, or passionate creator, you can offer your courses for free or set your own fees to earn from your expertise. Join our mission to make quality education accessible while building your personal brand and helping students grow in their careers.</p>
+        <p className="text-lg md:text-xl text-gray-600 mt-10">Share your knowledge with thousands of learners by publishing your courses on our platform. Whether you are an educator, industry expert, or passionate creator, you can offer your courses for free or set your own fees to earn from your expertise. Join our mission to make quality education accessible while building your personal brand and helping students grow in their careers.</p>
     </section>
   );
 }
