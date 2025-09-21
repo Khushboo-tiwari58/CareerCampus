@@ -2,19 +2,19 @@
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex flex-col items-center justify-center text-center text-white bg-gradient-to-br from-cyan-900 via-blue-900 to-black overflow-hidden pt-24">
+    <section className="relative min-h-[90vh] flex flex-col items-center justify-center text-center text-white bg-gradient-to-br from-cyan-900 via-blue-900 to-black overflow-hidden pt-24 px-4 sm:px-6">
       {/* Animated background shapes */}
       <div className="absolute -top-20 -left-20 w-96 h-96 bg-cyan-700/30 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-blue-700/30 rounded-full blur-3xl animate-pulse"></div>
 
-      <div className="relative z-10 px-6 max-w-4xl">
+      <div className="relative z-10 max-w-4xl w-full">
         {/* Main headline */}
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 tracking-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mb-6 tracking-tight max-w-3xl mx-auto">
           Shape Your <span className="text-cyan-300">Future</span> With Us
         </h1>
 
         {/* Subheading */}
-        <p className="text-base sm:text-lg md:text-xl mb-10 opacity-90 max-w-2xl mx-auto px-4">
+        <p className="text-base sm:text-lg md:text-xl mb-10 opacity-90 max-w-2xl mx-auto">
           Guidance for every student. Resources for every dream.
           Free consultation, endless opportunities.
         </p>
