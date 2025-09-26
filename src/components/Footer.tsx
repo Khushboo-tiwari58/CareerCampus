@@ -1,5 +1,5 @@
 // src/components/Footer.tsx
-import { FaYoutube, FaTelegramPlane, FaInstagram, FaTwitter, FaGlobe } from "react-icons/fa";
+import { FaYoutube, FaTelegramPlane, FaInstagram, FaWhatsapp ,FaLinkedinIn , FaGlobe } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -33,7 +33,8 @@ export default function Footer() {
             <a href="https://www.youtube.com/@JourneyWithin75" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition"><FaYoutube /></a>
             <a href="https://t.me/journeyWithin75" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition"><FaTelegramPlane /></a>
             <a href="https://www.instagram.com/soulinfinity464/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition"><FaInstagram /></a>
-            
+            <a href="https://whatsapp.com/channel/0029Vb6jRQTCBtxIX03hOX1p" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition"><FaWhatsapp  /></a>
+            <a href="https://www.linkedin.com/company/careercompass75/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition"><FaLinkedinIn  /></a>
             <a href="/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 transition"><FaGlobe /></a>
           </div>
         </div>
