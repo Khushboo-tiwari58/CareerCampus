@@ -6,7 +6,10 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Career Compass',
-  description: 'Explore streams, scholarships, and career opportunities for students and graduates.'
+  description: 'Explore streams, scholarships, and career opportunities for students and graduates.',
+  other: {
+    'google-site-verification': '5iIgezUiv-pXX5F0MB53cXy_vDAOw5qq3j-ILozVV2c'
+  }
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
